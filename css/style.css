@@ -13,6 +13,8 @@ body {
 a {
   color: #E9ECEF;
   text-decoration: none; }
+  a:hover {
+    color: #1adba2; }
 
 .container {
   width: 1024px;
