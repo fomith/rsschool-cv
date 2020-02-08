@@ -1,11 +1,24 @@
 * {
   font-family: "Roboto", sans-serif; }
 
+.top img {
+  border-radius: 5px; }
+
+h2 {
+  font-weight: 700; }
+
+body {
+  background-color: #212529; }
+
+a {
+  color: #E9ECEF;
+  text-decoration: none; }
+
 .container {
   width: 1024px;
   padding: 15px;
   margin: 0 auto;
-  background-color: aliceblue; }
+  background-color: #5A6169; }
 
 .top .container {
   display: flex;
@@ -14,8 +27,24 @@
 .top h2 {
   font-size: 30px; }
 
-.summary p, .skills p, .coding p {
+.top-right p {
+  margin: 5px 10px;
+  display: flex; }
+  .top-right p:before {
+    content: '';
+    display: block;
+    height: 17px;
+    width: 25px;
+    margin-right: 5px;
+    background-image: url(../image/sm-small.png); }
+
+p,
+ul {
   margin-left: 40px;
   margin-right: 40px; }
+
+li {
+  list-style-image: url(../image/sm-small.png);
+  line-height: 35px; }
 
 /*# sourceMappingURL=style.css.map */
